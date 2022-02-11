@@ -1,0 +1,16 @@
+library(tidyverse)
+source(".//BTF//btf.R")
+
+path <- ".//outputs//"  # any path you would like to save outputs
+BTF("United Kingdom", path, peakmatch=2, t_interval=75)
+BTF("India", path, peakmatch=1, t_interval=300)
+BTF("US", path, peakmatch=2, t_interval=100)
+BTF("Colombia", path, peakmatch=1, t_interval=90)
+BTF("Iran", path, peakmatch=1, t_interval=100)
+BTF("Israel", path, peakmatch=2, t_interval=90)
+BTF("Australia", path, peakmatch=2, t_interval=90)
+BTF("Italy", path, peakmatch=1, t_interval=90)
+BTF("Japan", path, peakmatch=2, t_interval=90)
+BTF("Singapore", path, peakmatch=1, t_interval=90)
+BTF("Germany", path, peakmatch=2, t_interval=90)
+BTF("South Africa", path, peakmatch=1, t_interval=120)
